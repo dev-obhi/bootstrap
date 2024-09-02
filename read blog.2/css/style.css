@@ -1,0 +1,263 @@
+/* ======== common css start ======== */
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 1280px;
+}
+
+
+
+
+
+/* ======== common css end  ======== */
+
+/* ======= navbar start ========== */
+.navbar-nav .nav-link.active{
+    color: #d3d1d1;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+}
+.navbar-nav .nav-link.active:hover{
+    color: #ffffff;
+}
+.navbar{
+    background-color: #1C1E53;
+    padding: 32px 0px;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.nav-btn a{
+    padding: 16px 48px;
+    color: #fff;
+    border-radius: 41px;
+    border: #BBBBCB 2px solid;
+    margin-left: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    transition: all linear 0.5s;
+}
+.nav-btn a:hover{
+    padding: 16px 48px;
+    color: #000000;
+    background-color: #ffffff;
+    border: #000000 2px solid;
+
+}
+
+
+
+
+/* ======== navbar end ============*/
+
+/* ========banner start -========= */
+#banner .wrap h1{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 64px;
+    width: 949px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 16px;
+   
+}
+
+
+#banner .wrap h6{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+
+}
+#banner .wrap .pic{
+    background: url(../photo/bnr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1280px;
+    height: 477px;
+    margin-top: 48px;
+}
+
+
+
+
+/* ========= bannner end ========= */
+
+/* ========lorem part start======== */
+
+
+
+#lorem .txt-wrap{
+    width: 842px;
+    margin: 0px auto;
+    
+}
+#lorem .txt-wrap h2{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 58px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+
+}
+#lorem .txt-wrap p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+
+}
+#lorem .txt-wrap p span{
+    color: blue;
+}
+
+#lorem .txt-wrap .ut h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 58px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+
+}
+#lorem .txt-wrap .one h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 58px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+
+}
+#lorem .txt-wrap .to h3{
+    font-size: 38px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    line-height: 58px;
+    padding-bottom: 32px;
+    padding-top: 48px;
+
+}
+
+
+
+
+
+
+
+
+#lorem .txt-wrap .ut p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+
+}
+#lorem .txt-wrap .ut p span{
+    color: blue;
+}
+#lorem .txt-wrap .list ul li{
+  
+  line-height: 31px;
+}
+#lorem .txt-wrap .list{
+    padding: 24px 0px;
+}
+#lorem .txt-wrap .img{
+    background: url(../photo/img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 840px;
+    height: 311px;
+}
+
+
+
+
+
+/* ======== lorem part end ========= */
+
+
+/* =====footer part start ===== */
+
+
+
+#footer{
+    background-color: #271C4E;
+    padding-top: 100px;
+}
+
+#footer .left p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    padding-top: 22px;
+    padding-bottom: 86px;
+    line-height: 28px;
+}
+
+#footer .right h2{
+    font-size: 48px;
+    font-weight: 600;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+
+#footer .right p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    line-height: 28px;
+}
+
+#footer .right i{
+    padding-right: 27px;
+    color: #ffffff;
+}
+
+#footer .last{
+    background-color: #FCC373;
+    width: 517px;
+}
+
+#footer .last h6{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    padding-top: 18px;
+    padding-left: 37px;
+    font-family: "Poppins", sans-serif;
+}
+
+#footer .last p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    padding-left: 37px;
+}
+
+#footer .last{
+    display: flex;
+}
+/* ====== footer part end ====== */
